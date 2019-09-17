@@ -19,6 +19,8 @@ This is the first post!
 
 You can do all crazy things with Saber!
 
+<Section>Test</Section>
+
 ```js
 console.log('woah!')
 ```
