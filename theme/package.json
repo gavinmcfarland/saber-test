@@ -1,0 +1,120 @@
+{
+  "_from": "saber-theme-tailsaw",
+  "_id": "saber-theme-tailsaw@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-eNtqnZZDFOOkp1yn/jy2/zF4UbblausUMtgC4npowkJ+yThRDXpbJOmNx3ZNDlipFNcN8+neri8vvMWeJwbH2Q==",
+  "_location": "/saber-theme-tailsaw",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "saber-theme-tailsaw",
+    "name": "saber-theme-tailsaw",
+    "escapedName": "saber-theme-tailsaw",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/saber-theme-tailsaw/-/saber-theme-tailsaw-1.4.0.tgz",
+  "_shasum": "2079bd96196812797c2fa3dd7b505b9920c2ae9a",
+  "_spec": "saber-theme-tailsaw",
+  "_where": "/Users/limitlessloop/Repos/saber-test",
+  "author": {
+    "name": "krmax44",
+    "email": "hi@krmax44.de",
+    "url": "https://krmax44.de"
+  },
+  "bugs": {
+    "url": "https://github.com/saberland/saber-theme-tailsaw/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fuse.js": "^3.4.5",
+    "lodash.debounce": "^4.0.8",
+    "nprogress": "^0.2.0",
+    "saber-plugin-critical": "^1.0.2",
+    "saber-plugin-prismjs": "^0.2.1",
+    "saber-plugin-query-posts": "^0.4.0",
+    "saber-plugin-search": "^0.1.0",
+    "typeface-nunito-sans": "^0.0.72"
+  },
+  "deprecated": false,
+  "description": "A starter template for creating a beautiful, customizable blog in Saber with minimal effort.",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.5.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-rem": "^4.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "postcss-nested": "^4.1.2",
+    "prismjs": "^1.16.0",
+    "saber": "^0.8.1",
+    "saber-plugin-critical": "^1.0.2",
+    "saber-plugin-prismjs": "^0.2.1",
+    "saber-plugin-query-posts": "^0.4.0",
+    "tailwindcss": "^1.1.2",
+    "vue-compile": "^0.6.0",
+    "xo": "^0.24.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/saberland/saber-theme-tailsaw#readme",
+  "keywords": [
+    "saber",
+    "saber-theme",
+    "jigsaw",
+    "theme",
+    "tailwind",
+    "clean",
+    "simple",
+    "transitions",
+    "page-transitions",
+    "jekyll"
+  ],
+  "license": "MIT",
+  "name": "saber-theme-tailsaw",
+  "peerDependencies": {
+    "saber": ">=0.8.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saberland/saber-theme-tailsaw.git"
+  },
+  "scripts": {
+    "build": "vue-compile src -o dist",
+    "build:example": "saber build example",
+    "dev:example": "saber example",
+    "lint": "xo",
+    "prepublishOnly": "yarn build",
+    "test": "echo lol"
+  },
+  "version": "1.4.0",
+  "xo": {
+    "extends": [
+      "rem",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "import/no-unassigned-import": "off",
+      "unicorn/filename-case": "off",
+      "no-await-in-loop": "off",
+      "unicorn/no-abusive-eslint-disable": "off"
+    },
+    "ignore": [
+      ".saber/**"
+    ],
+    "envs": [
+      "browser"
+    ]
+  }
+}
