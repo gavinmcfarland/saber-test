@@ -23,3 +23,17 @@ Non occaecat excepteur sit in et esse magna esse cillum cillum est anim exercita
 Quis officia ea exercitation non. Id sit officia et fugiat tempor cupidatat dolore esse eiusmod aliqua. Veniam id do Lorem anim pariatur incididunt aliqua. Aliquip magna dolore laboris proident commodo. Deserunt et irure ex dolor esse reprehenderit minim aute anim non dolor velit eiusmod exercitation. Voluptate aliquip dolor mollit aute nostrud duis non consectetur cillum non consectetur et.
 
 Ad fugiat ea nulla occaecat occaecat ea mollit exercitation magna occaecat reprehenderit cillum dolore. Non eu ea nostrud incididunt pariatur ullamco tempor magna deserunt ex. Nostrud proident sit sit irure pariatur culpa culpa nostrud enim excepteur do Lorem aliqua. Adipisicing sunt dolor ut nisi nulla consequat labore ullamco fugiat adipisicing deserunt nostrud adipisicing. Consectetur dolor nisi ut esse nisi fugiat qui eiusmod reprehenderit.
+
+{{data.testing}}
+
+<script>
+import data from './test.yml'
+
+export default {
+    data() {
+        return {
+            data
+        }
+    }
+};
+</script>

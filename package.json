@@ -5,16 +5,24 @@
   "main": "index.js",
   "scripts": {
     "dev": "saber",
-    "build": "saber build"
+    "build": "saber build",
+    "deploy": "npm run build && firebase deploy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "saber": "^0.9.0",
+    "asciidoctor": "^2.0.3",
+    "extract-sfc-blocks": "0.0.2",
     "fuse.js": "^3.4.5",
     "lodash.debounce": "^4.0.8",
     "nprogress": "^0.2.0",
+    "phtml": "^4.1.0",
+    "phtml-loader": "^1.1.0",
+    "posthtml": "^0.11.6",
+    "posthtml-loader": "^1.0.1",
+    "pug": "^2.0.4",
+    "saber": "^0.9.0",
     "saber-plugin-critical": "^1.0.2",
     "saber-plugin-prismjs": "^0.2.1",
     "saber-plugin-query-posts": "^0.4.0",

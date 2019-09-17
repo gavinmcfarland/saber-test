@@ -121,6 +121,18 @@
               }
             },
 {
+              path: "/test",
+              meta: {
+                __relative: 'test.adoc',
+                __pageId: 'd3d0a488'
+              },
+              component: function() {
+                
+                return import(/* webpackChunkName: "page--test-adoc" */ "/Users/limitlessloop/Repos/saber-test/pages/test.adoc?saberPage=d3d0a488")
+                
+              }
+            },
+{
               path: "/categories/loremipsum",
               meta: {
                 __relative: 'undefined',
