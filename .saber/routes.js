@@ -73,50 +73,50 @@
               }
             },
 {
-              path: "/about",
+              path: "/about/about",
               meta: {
-                __relative: 'about.md',
-                __pageId: '4ef185cf'
+                __relative: 'about/about.md',
+                __pageId: '091dacd1'
               },
               component: function() {
                 
-                return import(/* webpackChunkName: "page--about-md" */ "/Users/limitlessloop/Repos/saber-test/pages/about.md?saberPage=4ef185cf")
+                return import(/* webpackChunkName: "page--about-about-md" */ "/Users/limitlessloop/Repos/saber-test/pages/about/about.md?saberPage=091dacd1")
                 
               }
             },
 {
-              path: "/blog",
+              path: "/cv",
               meta: {
-                __relative: 'blog.md',
-                __pageId: 'b95c1368'
+                __relative: 'cv/cv.md',
+                __pageId: '5b04cae6'
               },
               component: function() {
                 
-                return import(/* webpackChunkName: "page--blog-md" */ "/Users/limitlessloop/Repos/saber-test/pages/blog.md?saberPage=b95c1368")
-                
-              }
-            },
-{
-              path: "/contact",
-              meta: {
-                __relative: 'contact.md',
-                __pageId: '0e6da69c'
-              },
-              component: function() {
-                
-                return import(/* webpackChunkName: "page--contact-md" */ "/Users/limitlessloop/Repos/saber-test/pages/contact.md?saberPage=0e6da69c")
+                return import(/* webpackChunkName: "page--cv-cv-md" */ "/Users/limitlessloop/Repos/saber-test/pages/cv/cv.md?saberPage=5b04cae6")
                 
               }
             },
 {
               path: "/",
               meta: {
-                __relative: 'index.md',
-                __pageId: '15be832c'
+                __relative: 'home/index.md',
+                __pageId: '65cf138c'
               },
               component: function() {
                 
-                return import(/* webpackChunkName: "page--index-md" */ "/Users/limitlessloop/Repos/saber-test/pages/index.md?saberPage=15be832c")
+                return import(/* webpackChunkName: "page--home-index-md" */ "/Users/limitlessloop/Repos/saber-test/pages/home/index.md?saberPage=65cf138c")
+                
+              }
+            },
+{
+              path: "/posts/blog",
+              meta: {
+                __relative: 'posts/blog.md',
+                __pageId: '141b9950'
+              },
+              component: function() {
+                
+                return import(/* webpackChunkName: "page--posts-blog-md" */ "/Users/limitlessloop/Repos/saber-test/pages/posts/blog.md?saberPage=141b9950")
                 
               }
             },
@@ -129,42 +129,6 @@
               component: function() {
                 
                 return import(/* webpackChunkName: "page--test-adoc" */ "/Users/limitlessloop/Repos/saber-test/pages/test.adoc?saberPage=d3d0a488")
-                
-              }
-            },
-{
-              path: "/categories/loremipsum",
-              meta: {
-                __relative: 'undefined',
-                __pageId: 'internal_blog__category__loremipsum'
-              },
-              component: function() {
-                
-                return import(/* webpackChunkName: "page--internal_blog__category__loremipsum" */ "#cache/pages/internal_blog__category__loremipsum.saberpage?saberPage=internal_blog__category__loremipsum")
-                
-              }
-            },
-{
-              path: "/categories/meta",
-              meta: {
-                __relative: 'undefined',
-                __pageId: 'internal_blog__category__meta'
-              },
-              component: function() {
-                
-                return import(/* webpackChunkName: "page--internal_blog__category__meta" */ "#cache/pages/internal_blog__category__meta.saberpage?saberPage=internal_blog__category__meta")
-                
-              }
-            },
-{
-              path: "/categories/bar",
-              meta: {
-                __relative: 'undefined',
-                __pageId: 'internal_blog__category__bar'
-              },
-              component: function() {
-                
-                return import(/* webpackChunkName: "page--internal_blog__category__bar" */ "#cache/pages/internal_blog__category__bar.saberpage?saberPage=internal_blog__category__bar")
                 
               }
             },

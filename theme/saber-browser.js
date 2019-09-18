@@ -1,8 +1,8 @@
-import Section from './components/Section'
+import './assets/css/base.css'
+// import Layout from '../components/Layout.vue'
 
 export default ({
-    setHead,
-    component
+    setHead
 }) => {
     setHead({
         script: [{
