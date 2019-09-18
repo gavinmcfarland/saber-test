@@ -138,7 +138,7 @@
         path: '*',
         name: 404,
         component: function () {
-          return import(/* webpackChunkName: "404-page" */ "/Users/limitlessloop/.nvm/versions/node/v12.4.0/lib/node_modules/saber/vue-renderer/app/404.vue")
+          return import(/* webpackChunkName: "404-page" */ "/Users/limitlessloop/Repos/saber-test/node_modules/saber/vue-renderer/app/404.vue")
         }
       }
     ]

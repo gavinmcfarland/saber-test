@@ -17,4 +17,8 @@ var layouts = {}
       layouts["Posts"] = layout_3
       
 
+      import layout_4 from "/Users/limitlessloop/Repos/saber-test/theme/layouts/default.vue"
+      layouts["default"] = layout_4
+      
+
     export default layouts

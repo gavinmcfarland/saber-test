@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "saber",
+    "dev": "saber dev",
     "build": "saber build",
     "deploy": "npm run build && firebase deploy"
   },
